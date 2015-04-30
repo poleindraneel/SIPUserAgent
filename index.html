@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+    <body>
+        <h1>SIP UA</h1>
+        <script src="index.js"></script>
+	<div style="float:left; width:50%;">
+
+
+<label>URI</label>
+	<input type="text" name="ToName" id="calledUA" size='50'/>
+<label>IP Address/Domain</label>
+	<input type="text" name="Domain" id="calledDomain" size='50'/>
+<div class="callingButtons">
+<button id="caller" onClick="callUA()">Call</button>
+<button id="end" onClick="endCall()">End</button>
+</div>
+<div class="Message">
+<label>Message Body</label>
+<input type='text' id='MessageText' size='50' style='height:100px;fontsize:14pt' maxlength='160' placeholder="Write your text message here"/>
+</div>
+<button id="sendMessage" onClick="sendMessage()">Send Message</button>
+<div>
+<label id = "realmlabel">Realm</label>
+<input type="text" name = "realm" id = "realm" size='50'/>
+<button id="register" onClick="registerUser()">Register</button>
+<button id="deRegister" onClick="deregisterUser()">DeRegister</button>
+<div>
+<label>Status</label>
+</div>
+<div style="float:left; width:30%;">
+<input type="text" name = "registerStatus" id = "registerStatus" size='10' placeholder="Status" readonly="readonly"/>
+</div>
+<div style="float:left; width:30%;">
+<input type="text" name = "registerRealm" id = "registerRealm" size='10' placeholder="Realm" readonly="readonly"/>
+</div>
+<div style="float:right; width:40%;">
+<input type="text" name = "registerCSeq" id = "registerCSeq" size='10' placeholder="CSeq" readonly="readonly"/>
+</div>
+
+</div>
+</div>
+
+<div style="float:right; width:50%;">
+<label>GStreamer Status</label>
+<input type="text" name = "gstreamerStat" id = "gstreamerStat" size='50' readonly="readonly"/>
+<div id="audio" style="float:left; width:30%;">
+<label>Audio Port</label>
+<input type="text" name = "audioPort" id = "audioPort" size='15' readonly="readonly"/>
+</div>
+<div id="audioCodec" style="float:right; width:70%;">
+<label>Audio Codec</label>
+<input type="text" name = "audioCodec" id = "audioCodec" size='15' readonly="readonly"/>
+</div>
+<div id="video" style="float:left; width:30%;">
+<label>Video Port</label>
+<input type="text" name = "videoPort" id = "videoPort" size='15' readonly="readonly"/>
+</div>
+<div id="videoCodec" style="float:right; width:70%;">
+<label>Video Codec</label>
+<input type="text" name = "videoCodec" id = "videoCodec" size='15' readonly="readonly"/>
+</div>
+<label>Message Inbox</label>
+<input type="text" name = "readFrom" id = "readFrom" size='50' maxlength='160' placeholder="From" readonly="readonly"/>
+<input type="text" name = "readMessage" id = "readMessage" size='50' style='height:100px;fontsize:14pt' maxlength='160' placeholder="Incoming Message" readonly="readonly"/>
+
+<!--  <ul style="list-style-type:none" id = "messageList"></ul>-->
+</div>
+</body>
+</html>

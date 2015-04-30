@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/jain-sip-api-1.2.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/jain-sip-ri-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/nist-sdp-1.0.jar"/>
+	<classpathentry kind="lib" path="target/dependency/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/asm-5.0.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/asm-commons-5.0.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/asm-tree-5.0.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jain-sip-api-1.2.1.4.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jain-sip-ri-1.2.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/javax-websocket-client-impl-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/javax-websocket-server-impl-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="target/dependency/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="target/dependency/javax.websocket-api-1.0.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jersey-bundle-1.8.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-annotations-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-http-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-io-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-jndi-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-plus-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-security-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-server-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-servlet-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-util-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-webapp-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jetty-xml-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/jsr311-api-1.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="target/dependency/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="target/dependency/nist-sdp-1.0.jar"/>
+	<classpathentry kind="lib" path="target/dependency/websocket-api-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/websocket-client-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/websocket-common-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/websocket-server-9.2.2.v20140723.jar"/>
+	<classpathentry kind="lib" path="target/dependency/websocket-servlet-9.2.2.v20140723.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
